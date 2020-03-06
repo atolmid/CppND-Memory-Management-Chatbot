@@ -8,12 +8,7 @@ GraphNode::GraphNode(int id)
 
 GraphNode::~GraphNode()
 {
-    //// STUDENT CODE
-    ////
-    //_childEdges.clear();
-	
-    ////
-    //// EOF STUDENT CODE
+
 }
 
 void GraphNode::AddToken(std::string token)
