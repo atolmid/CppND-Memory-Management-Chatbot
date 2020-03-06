@@ -70,9 +70,6 @@ ChatBot &ChatBot::operator=(const ChatBot &source) {
     }
     _image = new wxBitmap(*source._image);
 
-    //_chatLogic = nullptr;
-    //_rootNode = nullptr;
-
     return *this;
 }
 
@@ -106,7 +103,6 @@ ChatBot &ChatBot::operator=(ChatBot &&source) {
 
     _chatLogic = source._chatLogic;
 
-    //_currentNode = source._currentNode;
     _rootNode = source._rootNode;
     _currentNode = source._currentNode;
     _chatLogic->SetChatbotHandle(this);
